@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "../inc/libmx.h"
 
 void mx_printchar(char c) {
     write(1, &c, 1);
@@ -8,3 +8,5 @@ void mx_printchar(char c) {
 //     mx_printchar('+');
 //     mx_printchar('\n');
 // }
+
+
