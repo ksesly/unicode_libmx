@@ -1,5 +1,5 @@
 #include "../inc/libmx.h"
-#include <locale.h> 
+//#include <locale.h> 
 
 int mx_size(wchar_t c) {
     int size = 4;
@@ -32,8 +32,8 @@ void mx_print_unicode(wchar_t c) {
     write(1, &temp, size);
 }
 
-int main (void) {
-    setlocale(LC_ALL, "en_US.UTF-8");
-    mx_print_unicode(0x1F);
-}
+// int main (void) {
+//     setlocale(LC_ALL, "en_US.UTF-8");
+//     mx_print_unicode(0x1F);
+// }
 
