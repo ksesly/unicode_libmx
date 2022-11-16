@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "../inc/libmx.h"
 
 int mx_strlen(const char *s) {
     int length = 0;
@@ -8,9 +8,5 @@ int mx_strlen(const char *s) {
     return length;
 }
 
-// int main(void) {
-//     char *s = "Hello";
-//     int n = mx_strlen(s);
-//     printf("%i", n);
-// }
+
 
