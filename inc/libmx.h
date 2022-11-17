@@ -4,8 +4,9 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
-int mx_strlen(const char *s); //mod
+int mx_strlen(const char *s); mod
 void mx_print_unicode(wchar_t c); 
 void mx_printchar(char c);
 void mx_printstr(const char *s);
@@ -28,7 +29,9 @@ char *mx_strncpy(char *dst, const char *src, int len);
 char *mx_strcat(char *s1, const char *s2);
 int mx_count_words(const char *str, char delimeter);
 char *mx_strnew(const int size);
+char *mx_strtrim(const char *str);
 
+bool mx_isspace(char c);
 
 
 
