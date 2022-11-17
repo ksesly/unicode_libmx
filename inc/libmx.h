@@ -19,6 +19,7 @@ int mx_strcmp(const char *s1, const char *s2);
 int mx_bubble_sort(char **arr, int size);
 int mx_binary_search(char **arr, int size, const char *s, int *count);
 void mx_swap_char(char *s1, char *s2);
+void mx_str_reverse(char *s);
 
 
 
