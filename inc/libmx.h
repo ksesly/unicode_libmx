@@ -24,6 +24,7 @@ void mx_strdel(char **str)
 void mx_del_strarr(char ***arr);
 char *mx_strdup(const char *str);
 char* mx_strcpy(char *dst, const char *src);
+char *mx_strncpy(char *dst, const char *src, int len);
 
 
 
