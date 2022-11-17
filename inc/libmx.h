@@ -22,6 +22,8 @@ void mx_swap_char(char *s1, char *s2);
 void mx_str_reverse(char *s);
 void mx_strdel(char **str)
 void mx_del_strarr(char ***arr);
+char *mx_strdup(const char *str);
+char* mx_strcpy(char *dst, const char *src);
 
 
 
