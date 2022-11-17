@@ -30,6 +30,9 @@ char *mx_strcat(char *s1, const char *s2);
 int mx_count_words(const char *str, char delimeter);
 char *mx_strnew(const int size);
 char *mx_strtrim(const char *str);
+char **mx_strsplit(char const *s, char c);
+
+
 
 bool mx_isspace(char c);
 
