@@ -14,6 +14,8 @@ void mx_printint(int n);
 double mx_pow(double n, unsigned int pow);
 int mx_sqrt(int x);
 char *mx_nbr_to_hex(unsigned long nbr);
+unsigned long mx_hex_to_nbr(const char *hex);
+
 
 
 
