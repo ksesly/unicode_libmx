@@ -31,6 +31,7 @@ int mx_count_words(const char *str, char delimeter);
 char *mx_strnew(const int size);
 char *mx_strtrim(const char *str);
 char **mx_strsplit(char const *s, char c);
+char *mx_strjoin(char const *s1, char const *s2);
 
 
 
