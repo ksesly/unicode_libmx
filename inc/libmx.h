@@ -27,6 +27,7 @@ char* mx_strcpy(char *dst, const char *src);
 char *mx_strncpy(char *dst, const char *src, int len);
 char *mx_strcat(char *s1, const char *s2);
 int mx_count_words(const char *str, char delimeter);
+char *mx_strnew(const int size);
 
 
 
