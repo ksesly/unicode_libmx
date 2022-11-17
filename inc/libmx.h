@@ -15,6 +15,9 @@ double mx_pow(double n, unsigned int pow);
 int mx_sqrt(int x);
 char *mx_nbr_to_hex(unsigned long nbr);
 unsigned long mx_hex_to_nbr(const char *hex);
+int mx_strcmp(const char *s1, const char *s2);
+int mx_bubble_sort(char **arr, int size);
+int mx_binary_search(char **arr, int size, const char *s, int *count);
 
 
 
