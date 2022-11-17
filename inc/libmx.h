@@ -21,6 +21,7 @@ int mx_binary_search(char **arr, int size, const char *s, int *count);
 void mx_swap_char(char *s1, char *s2);
 void mx_str_reverse(char *s);
 void mx_strdel(char **str)
+void mx_del_strarr(char ***arr);
 
 
 
