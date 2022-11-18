@@ -33,17 +33,17 @@ int mx_quicksort(char **arr, int left, int right) {
     return swap_counter;
 }
 
-int main (void) {
-    // char *array[] = {"Michelangelo", "Donatello", "Leonardo", "Raphael"};
-    // printf("%i\n", mx_quicksort(array, 0 , 3));
-    // for (int i = 0; array[i] != 0; i++) {
-    //     printf("%s ", array[i]);
-    // }
-    char *array1[] = {"DMC", "Cint Eastwood", "Dr Brown", "Einstein", "Jessica", "Biff Tannet"};
-    printf("%i\n", mx_quicksort(array1, 0 , 5));
-    for (int i = 0; array1[i] != 0; i++) {
-        printf("%s ", array1[i]);
-    }
+// int main (void) {
+//     // char *array[] = {"Michelangelo", "Donatello", "Leonardo", "Raphael"};
+//     // printf("%i\n", mx_quicksort(array, 0 , 3));
+//     // for (int i = 0; array[i] != 0; i++) {
+//     //     printf("%s ", array[i]);
+//     // }
+//     char *array1[] = {"DMC", "Clint Eastwood", "Dr Brown", "Einstein", "Jessica", "Biff Tannet"};
+//     printf("%i\n", mx_quicksort(array1, 0 , 5));
+//     for (int i = 0; array1[i] != 0; i++) {
+//         printf("%s ", array1[i]);
+//     }
 
-}
+// }
 
