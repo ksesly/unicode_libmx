@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-int mx_strlen(const char *s); mod
+int mx_strlen(const char *s); 
 void mx_print_unicode(wchar_t c); 
 void mx_printchar(char c);
 void mx_printstr(const char *s);
@@ -21,7 +21,7 @@ int mx_bubble_sort(char **arr, int size);
 int mx_binary_search(char **arr, int size, const char *s, int *count);
 void mx_swap_char(char *s1, char *s2);
 void mx_str_reverse(char *s);
-void mx_strdel(char **str)
+void mx_strdel(char **str);
 void mx_del_strarr(char ***arr);
 char *mx_strdup(const char *str);
 char* mx_strcpy(char *dst, const char *src);
@@ -33,6 +33,7 @@ char *mx_strtrim(const char *str);
 char **mx_strsplit(char const *s, char c);
 char *mx_strjoin(char const *s1, char const *s2);
 void mx_foreach(int *arr, int size, void (*f)(int));
+int mx_quicksort(char **arr, int left, int right);
 
 
 
