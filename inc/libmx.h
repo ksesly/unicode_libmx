@@ -34,6 +34,7 @@ char **mx_strsplit(char const *s, char c);
 char *mx_strjoin(char const *s1, char const *s2);
 void mx_foreach(int *arr, int size, void (*f)(int));
 int mx_quicksort(char **arr, int left, int right);
+int mx_get_char_index(const char *str, char c);
 
 
 
