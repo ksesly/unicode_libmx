@@ -43,6 +43,9 @@ int mx_get_substr_index(const char *str, const char *sub);
 int mx_count_substr(const char *str, const char *sub);
 char *mx_del_extra_spaces(const char *str);
 char *mx_file_to_str(const char *file);
+char *mx_replace_substr(const char *str, const char *sub, const char *replace);
+int mx_read_line(char **lineptr, size_t buf_size, char delim, const int fd);
+
 
 
 
