@@ -37,6 +37,9 @@ int mx_quicksort(char **arr, int left, int right);
 int mx_get_char_index(const char *str, char c);
 char *mx_strndup(const char *s1, size_t n);
 char *mx_strstr(const char *haystack, const char *needle);
+int mx_get_substr_index(const char *str, const char *sub);
+int mx_count_substr(const char *str, const char *sub);
+char *mx_del_extra_spaces(const char *str);
 
 
 
