@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <fcntl.h>
+
 
 int mx_strlen(const char *s); 
 void mx_print_unicode(wchar_t c); 
@@ -40,6 +42,7 @@ char *mx_strstr(const char *haystack, const char *needle);
 int mx_get_substr_index(const char *str, const char *sub);
 int mx_count_substr(const char *str, const char *sub);
 char *mx_del_extra_spaces(const char *str);
+char *mx_file_to_str(const char *file);
 
 
 
