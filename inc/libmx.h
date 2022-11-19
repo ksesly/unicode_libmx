@@ -36,10 +36,13 @@ void mx_foreach(int *arr, int size, void (*f)(int));
 int mx_quicksort(char **arr, int left, int right);
 int mx_get_char_index(const char *str, char c);
 char *mx_strndup(const char *s1, size_t n);
+char *mx_strstr(const char *haystack, const char *needle);
+
 
 
 
 bool mx_isspace(char c);
-
+int mx_strncmp(const char *s1, const char *s2, int n);
+char *mx_strchr(const char *s, int c);
 
 
