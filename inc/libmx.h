@@ -75,5 +75,8 @@ t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *, void *));
 bool mx_isspace(char c);
 int mx_strncmp(const char *s1, const char *s2, int n);
 char *mx_strchr(const char *s, int c);
+bool mx_isdigit(int c);
+bool mx_isupper(int c) ;
+bool mx_islower(int c);
 
 
