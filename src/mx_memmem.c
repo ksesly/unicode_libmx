@@ -4,7 +4,7 @@ void *mx_memmem(const void *big, size_t big_len, const void *little, size_t litt
     if (little_len == 0)
         return 0;
     void *temp;
-    temp = mx_memchr(big, (unsigned char*)little, big_len);
+    temp = mx_memchr(big, *(unsigned char*)little, big_len);
     while (temp != NULL) {
         size_t last = big_len - ((unsigned char *)temp - (unsigned char *) big);
         if (mx_memcmp(temp, little, little_len) == 0)
