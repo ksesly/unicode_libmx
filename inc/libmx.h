@@ -52,7 +52,6 @@ int mx_memcmp(const void *s1, const void *s2, size_t n);
 char *mx_memrchr(const void *s, int c, size_t n);
 void *mx_memmem(const void *big, size_t big_len, const void *little, size_t little_len) ;
 void *mx_memmove(void *dst, const void *src, size_t len);
-t_list *mx_create_node(void *data);
 
 
 typedef struct s_list {
@@ -60,7 +59,8 @@ typedef struct s_list {
     struct s_list *next;
 }               t_list;
 
-
+t_list *mx_create_node(void *data);
+void mx_push_front(t_list **list, void *data);
 
 
 
