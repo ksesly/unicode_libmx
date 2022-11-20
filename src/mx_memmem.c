@@ -11,7 +11,7 @@ void *mx_memmem(const void *big, size_t big_len, const void *little, size_t litt
             return temp;
         if (last < little_len) 
             break;
-        temp = mx_memchr((unsigned char *)temp + 1, (unsigned char *)little, big_len);
+        temp = mx_memchr((unsigned char *)temp + 1, *(unsigned char *)little, big_len);
     }
     return NULL;
 }

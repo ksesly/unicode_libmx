@@ -6,9 +6,9 @@ void mx_push_back(t_list **list, void *data) {
         return;
     }
     t_list *temp = *list;
-    while (temp->next != NULL)
+    while (temp->next != NULL) 
         temp = temp->next;
-        temp->next = mx_create_node(data);
+    temp->next = mx_create_node(data);
 }
 
 

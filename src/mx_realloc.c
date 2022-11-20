@@ -21,15 +21,3 @@ void *mx_realloc(void *ptr, size_t size) {
     return temp;
 }
 
-
-int main (void) {
-    int *arr = (int *)malloc(sizeof(int)*100);
-    for (int i = 0; i < 5; i++) {
-        arr[i] = i;
-    }
-    printf("%zu\n", malloc_size(arr));
-    arr = mx_realloc(arr, sizeof(int) * 10);
-    printf("%zu\n", malloc_size(arr));
-    return 0;
-
-}

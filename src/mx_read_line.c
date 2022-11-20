@@ -21,15 +21,15 @@
 // -2 in case of errors or fd is invalid
 
 int mx_read_line(char **lineptr, size_t buf_size, char delim, const int fd) {
-    int file = open(fd, O_RDONLY);
-    if (!file || fd < 0) {
-        close(file);
+    //int file = open(fd, O_RDONLY);
+    if (!fd ) {
+        close(fd);
         return -2;
     }
     int number_of_bytes = 0;
     int element = 0;
-    char *buf;
-    char *temp = mx_strnew(buf_size);
+    char *buf = NULL;
+    //char *temp = mx_strnew(buf_size);
     while (buf == NULL || buf[element] != delim) {
         if (buf == NULL || *buf == '\0' ) {
             buf = mx_strnew(buf_size);
@@ -48,7 +48,7 @@ int mx_read_line(char **lineptr, size_t buf_size, char delim, const int fd) {
     char *result = mx_strdup(&buf[element+1]);
     mx_strcpy(buf, result);
     mx_strdel(&result);
-    return temp;
+    return 0;
 }
 
 
