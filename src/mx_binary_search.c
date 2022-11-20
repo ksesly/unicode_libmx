@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-int mx_strcmp(const char *s1, const char *s2);
+//int mx_strcmp(const char *s1, const char *s2);
 
 //function search for the string in array  with the given size
 //use binary search algorithm (input is already sorted)
